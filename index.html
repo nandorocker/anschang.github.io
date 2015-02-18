@@ -7,11 +7,6 @@
   body {
     font-family: 'Lato', sans-serif;
   }
-  @media screen and (max-width: 600px) {
-    .profile-photo {
-      float:none;
-    }
-  }
   .body-wrapper {
     max-width: 600px;
     margin: 30px auto;
@@ -26,11 +21,16 @@
     margin:30px 0;
     float:right;
   }
+  @media screen and (max-width: 600px) {
+    .profile-photo {
+      float:none;
+    }
+  }
   /* instagram style */
-
   .ig-b- { display: inline-block; }
   .ig-b- img { visibility: hidden; }
-  .ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+  .ig-b-:hover { background-position: 0 -60px; } 
+  .ig-b-:active { background-position: 0 -120px; }
   .ig-b-v-24 { width: 137px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }
@@ -44,12 +44,13 @@
     <p>I am a software engineer, internet entrepreneur, and author.  On the outside -- first impression, I am a bit of a quiet, sensitive type.. but with close friends I can be witty, adventurous, passionate, loving and loyal...</p> 
     <p>I enjoy reading, traveling, photography and going to theatre or live shows -- small local venues. My favorite authors are Haruki Murakami, Kerouac, JD Salinger, Scott F. Fitzgerald, Dostoevsky, Hugo, Kafka, Lee Sang, Steinbeck etc.. Mediterranean and Lebanese cuisines makes me very happy =) Citizen of the United States while my roots/ethnicity is Korean. And I enjoy all kinds of music, including ambient electronic music, new wave, and indie rock.</p>
     
-    <!-- instagram -->
-    <p><a href="http://instagram.com/anschang?ref=badge" class="ig-b- ig-b-v-24"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a>
+
     <!-- twitter -->
     <a class="twitter-follow-button" href="https://twitter.com/anschang" data-show-count="true" data-lang="en" data-size="large">Follow @anschang</a>
-    <!-- Place this tag where you want the button to render. -->
     <p>&copy; Ansoo Chang</p>
+
+    <!-- instagram -->
+    <p><a href="http://instagram.com/anschang?ref=badge" class="ig-b- ig-b-v-24"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a>
   </div>
 
 <!-- script twitter -->   
