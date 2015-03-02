@@ -49,12 +49,11 @@ ul.social-links li {
   .profile-photo {
     float:none;
   }
+ul.social-links li { 
+  display:inline;
+  margin: 10px 30px 15px 0;
 }
 
-.drawings {
-  display:block;
-  margin:80px auto;
-  border:1px solid #111;
 }
 
 footer {
